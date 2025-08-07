@@ -7,6 +7,7 @@ CreateThread(function()
         QBCore = exports['qb-core']:GetCoreObject()
     end
 end)
+
 local function GetPlayerData(src)
     if Config.Framework.name == "esx_ny" or Config.Framework.name == "esx_gammel" then
         local xPlayer = ESX.GetPlayerFromId(src)
@@ -131,3 +132,4 @@ RegisterNetEvent('fynix_crafting:getJob', function()
     end
 
 end)
+
