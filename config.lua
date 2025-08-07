@@ -16,7 +16,6 @@ Config.Adgang = {
         "mafia"
     }
 }
-
 Config.Crafting = {
     vaaben = {
         {
@@ -69,3 +68,4 @@ Config.Crafting = {
         }
     }
 }
+
